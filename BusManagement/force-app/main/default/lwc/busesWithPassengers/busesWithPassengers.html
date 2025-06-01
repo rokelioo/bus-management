@@ -1,0 +1,21 @@
+<!--
+ - Created by RokasL on 5/31/2025.
+ -->
+<template>
+    <lightning-card title="Buses for this Company">
+        <template lwc:if={buses.length}>
+            <lightning-datatable
+                    key-field="id"
+                    data={buses}
+                    columns={columns}
+                    hide-checkbox-column
+                    show-row-number-column>
+            </lightning-datatable>
+        </template>
+        <template lwc:else>
+            <p class="slds-p-around_medium slds-text-color_weak">
+                No buses found for this company.
+            </p>
+        </template>
+    </lightning-card>
+</template>
