@@ -24,4 +24,8 @@
   Used to assign values to read-only fields.  
   [https://github.com/mattaddy/SObjectFabricator](https://github.com/mattaddy/SObjectFabricator)
 
-> ⚠️ **Note:** These resources are not included in the project files. You will need to install them manually.
+**Note:** These resources are not included in the project files. You will need to install them manually.
+
+## Test Coverage
+
+Test coverage is **100%** for all Apex classes included in this project.
